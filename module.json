@@ -1,1 +1,185 @@
-{'handlers': [{'type': 'event', 'position': 0, 'event': 'player_join', 'operations': [{'action': 'player_send_message', 'values': [{'type': 'array', 'values': [{'type': 'text', 'text': 'test'}, {'type': 'text', 'text': 'test2'}]}]}, {'action': 'if_variable_None', 'values': [], 'operations': [{'action': 'player_send_message', 'values': [{'type': 'array', 'values': [{'type': 'text', 'text': 'hello'}, {'type': 'text', 'text': 'world'}]}], 'selection': 'current'}]}, {'action': 'if_variable_None', 'values': [], 'operations': [{'action': 'player_send_message', 'values': [{'type': 'array', 'values': [{'type': 'text', 'text': 'hello'}, {'type': 'text', 'text': 'world'}]}], 'selection': 'current'}]}, {'action': 'if_variable_None', 'values': [], 'operations': [{'action': 'player_send_message', 'values': [{'type': 'array', 'values': [{'type': 'text', 'text': 'hello'}, {'type': 'text', 'text': 'world'}]}], 'selection': 'current'}]}]}]}
+{
+    "handlers": [
+        {
+            "type": "event",
+            "position": 0,
+            "event": "player_join",
+            "operations": [
+                {
+                    "action": "player_send_message",
+                    "values": [
+                        {
+                            "name": "messages",
+                            "value": {
+                                "type": "array",
+                                "values": [
+                                    {
+                                        "type": "text",
+                                        "text": "test"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "test2"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "selection": {
+                        "type": "default"
+                    }
+                },
+                {
+                    "action": "if_variable_equals",
+                    "values": [
+                        {
+                            "name": "value",
+                            "value": {
+                                "type": "number",
+                                "number": 10.0
+                            }
+                        },
+                        {
+                            "name": "compare",
+                            "value": {
+                                "type": "array",
+                                "values": [
+                                    {
+                                        "type": "number",
+                                        "number": 5.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "operations": [
+                        {
+                            "action": "player_send_message",
+                            "values": [
+                                {
+                                    "name": "messages",
+                                    "value": {
+                                        "type": "array",
+                                        "values": [
+                                            {
+                                                "type": "text",
+                                                "text": "hello"
+                                            },
+                                            {
+                                                "type": "text",
+                                                "text": "world"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "selection": {
+                                "type": "current"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "action": "if_variable_equals",
+                    "values": [
+                        {
+                            "name": "value",
+                            "value": {
+                                "type": "number",
+                                "number": 11.0
+                            }
+                        },
+                        {
+                            "name": "compare",
+                            "value": {
+                                "type": "array",
+                                "values": [
+                                    {
+                                        "type": "number",
+                                        "number": 5.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "operations": [
+                        {
+                            "action": "player_send_message",
+                            "values": [
+                                {
+                                    "name": "messages",
+                                    "value": {
+                                        "type": "array",
+                                        "values": [
+                                            {
+                                                "type": "text",
+                                                "text": "hello"
+                                            },
+                                            {
+                                                "type": "text",
+                                                "text": "world"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "selection": {
+                                "type": "current"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "action": "if_variable_equals",
+                    "values": [
+                        {
+                            "name": "value",
+                            "value": {
+                                "type": "number",
+                                "number": 12.0
+                            }
+                        },
+                        {
+                            "name": "compare",
+                            "value": {
+                                "type": "array",
+                                "values": [
+                                    {
+                                        "type": "number",
+                                        "number": 5.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "operations": [
+                        {
+                            "action": "player_send_message",
+                            "values": [
+                                {
+                                    "name": "messages",
+                                    "value": {
+                                        "type": "array",
+                                        "values": [
+                                            {
+                                                "type": "text",
+                                                "text": "hello"
+                                            },
+                                            {
+                                                "type": "text",
+                                                "text": "world"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "selection": {
+                                "type": "current"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
