@@ -1,36 +1,34 @@
 {
   "handler": [
     {
-      "Function": {
-        "type": "Function",
-        "position": 0,
-        "operations": [],
-        "values": [
-          {
-            "type": "parameter",
-            "type_key": "singular",
-            "description": "{\"translations\":{}}",
-            "name": "a",
-            "value_type": "text",
-            "is_required": "true",
-            "default_value": "{}",
-            "slot": 0,
-            "description_slot": 54
-          },
-          {
-            "type": "parameter",
-            "type_key": "singular",
-            "description": "{\"translations\":{}}",
-            "name": "b",
-            "value_type": "number",
-            "is_required": "true",
-            "default_value": "{}",
-            "slot": 0,
-            "description_slot": 54
-          }
-        ],
-        "name": "test"
-      }
+      "type": "Function",
+      "position": 0,
+      "operations": [],
+      "values": [
+        {
+          "type": "parameter",
+          "type_key": "singular",
+          "description": "{\"translations\":{}}",
+          "name": "a",
+          "value_type": "text",
+          "is_required": "true",
+          "default_value": "{}",
+          "slot": 0,
+          "description_slot": 54
+        },
+        {
+          "type": "parameter",
+          "type_key": "singular",
+          "description": "{\"translations\":{}}",
+          "name": "b",
+          "value_type": "number",
+          "is_required": "true",
+          "default_value": "{}",
+          "slot": 0,
+          "description_slot": 54
+        }
+      ],
+      "name": "test"
     }
   ]
 }
