@@ -18,7 +18,7 @@
               "is_required": "true",
               "default_value": "{}",
               "slot": 0,
-              "description_slot": 54
+              "description_slot": 53
             },
             {
               "type": "parameter",
@@ -29,7 +29,7 @@
               "is_required": "true",
               "default_value": "{}",
               "slot": 1,
-              "description_slot": 53
+              "description_slot": 52
             }
           ]
         }
