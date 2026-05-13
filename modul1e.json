@@ -18,8 +18,8 @@
                 "value_type": "text",
                 "is_required": "true",
                 "default_value": "{}",
-                "slot": 0,
-                "description_slot": 53
+                "slot": 1,
+                "description_slot": 0
               },
               {
                 "type": "parameter",
@@ -29,8 +29,8 @@
                 "value_type": "number",
                 "is_required": "true",
                 "default_value": "{}",
-                "slot": 1,
-                "description_slot": 52
+                "slot": 2,
+                "description_slot": 1
               }
             ]
           }
