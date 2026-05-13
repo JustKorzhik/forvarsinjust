@@ -1,7 +1,7 @@
 {
   "handler": [
     {
-      "type": "Function",
+      "type": "function",
       "position": 0,
       "operations": [],
       "values": [
