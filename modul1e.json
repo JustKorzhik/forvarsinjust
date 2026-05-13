@@ -1,5 +1,5 @@
 {
-  "handle": [
+  "handlers": [
     {
       "type": "function",
       "position": 0,
